@@ -10,7 +10,7 @@
 
 /* Card styling */
 .container .card {
-    width: 80%;
+    width: 40%;
     background-color: white;
     margin: auto;
     padding: 20px;
@@ -53,4 +53,9 @@
     opacity: 0.8; 
 }
 
-/
+/* media queries */ 
+ @media screen and (max-width: 768px) {
+   .container .card {
+    width: 80%;
+    }
+}
